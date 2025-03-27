@@ -1,0 +1,61 @@
+footer {
+  background-color: #dc2626;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+footer p {
+  margin: 0.5rem 0; 
+  width: 100%;
+}
+
+footer p#kontak {
+  margin-top: 1rem; 
+  text-align: center; 
+  width: 100%; 
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 768px) {
+  footer {
+    padding: 1rem;
+  }
+
+  footer .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Responsif untuk desktop */
+@media (min-width: 769px) {
+  footer {
+    padding: 1.5rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
